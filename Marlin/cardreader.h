@@ -28,7 +28,7 @@ public:
   void getStatus();
   void printingHasFinished();
 
-  void getfilename(uint16_t nr, const char* const match=NULL);
+  void getfilename(const uint8_t nr);
   uint16_t getnrfilenames();
   
   void getAbsFilename(char *t);
@@ -77,12 +77,12 @@ private:
   LsAction lsAction; //stored for recursion.
   int16_t nrFiles; //counter for the files in the current directory and recycled as position counter for getting the nrFiles'th name in the directory.
   char* diveDirName;
-  void lsDive(const char *prepend, SdFile parent, const char * const match=NULL);
+  void lsDive(const char *prepend,SdFile parent);
 };
 extern CardReader card;
 #define IS_SD_PRINTING (card.sdprinting)
 
-#if (SDCARDDETECT > -1)
+#if (SDCARDDCT > -1)
 # ifdef SDCARDDETECTINVERTED 
 #  define IS_SD_INSERTED (READ(SDCARDDETECT)!=0)
 # else
