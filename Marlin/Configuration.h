@@ -329,9 +329,15 @@
   //#define  DEFAULT_Kd 440
 
   // SUNHOKEY I3  修改日期2014-8-27  少鸿
-  #define  DEFAULT_Kp 17.52
-  #define  DEFAULT_Ki 0.62
-  #define  DEFAULT_Kd 123.43
+  //#define  DEFAULT_Kp 17.52
+  //#define  DEFAULT_Ki 0.62
+  //#define  DEFAULT_Kd 123.43
+
+  // Custom e3d hotend
+  #define  DEFAULT_Kp 18.68
+  #define  DEFAULT_Ki 1.60
+  #define  DEFAULT_Kd 54.64
+
 #endif // PIDTEMP
 
 //===========================================================================
