@@ -838,7 +838,7 @@
 
   // Set the boundaries for probing (where the probe can reach).
   #define LEFT_PROBE_BED_POSITION 40
-  #define RIGHT_PROBE_BED_POSITION 190
+  #define RIGHT_PROBE_BED_POSITION 185
   #define FRONT_PROBE_BED_POSITION 50
   #define BACK_PROBE_BED_POSITION 200
 
