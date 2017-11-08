@@ -1437,11 +1437,11 @@
   #define USER_DESC_5 "Extrude 50mm"
   #define USER_GCODE_5 "G91\nG1 E50 F100\nG90\nM84"
 
-  #define USER_DESC_4 "Retract 10mm"
-  #define USER_GCODE_4 "G91\nG1 E-10 F100\nG90\nM84"
+  #define USER_DESC_6 "Retract 10mm"
+  #define USER_GCODE_6 "G91\nG1 E-10 F100\nG90\nM84"
 
-  #define USER_DESC_5 "Retract 50mm"
-  #define USER_GCODE_5 "G91\nG1 E-50 F100\nG90\nM84"
+  #define USER_DESC_7 "Retract 50mm"
+  #define USER_GCODE_7 "G91\nG1 E-50 F100\nG90\nM84"
 #endif
 
 /**
