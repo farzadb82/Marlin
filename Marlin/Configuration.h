@@ -754,7 +754,9 @@
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
 // Configuration for titan extruder
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 436.17 }
+//#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 436.17 }
+// Configuration for BMG Clone
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 403.9 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1107,7 +1109,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR true
+#define INVERT_E0_DIR false
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
